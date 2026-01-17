@@ -1,67 +1,64 @@
 ![alt text](image.png)
 
-# 🧾 POS APP (Point of Sale Application)
+# POS APP (Point of Sale Application)
 
-POS APP adalah aplikasi **Point of Sale berbasis web** yang dibangun menggunakan **Laravel** untuk membantu proses **pengelolaan penjualan, stok barang, dan laporan transaksi** secara terintegrasi.
+POS APP is a **web-based Point of Sale application** built with **Laravel**, designed to streamline sales management, inventory tracking, and transaction reporting in an integrated system.
 
-Aplikasi ini cocok digunakan untuk **toko retail kecil–menengah**, outlet, atau sebagai **project pembelajaran Laravel**.
+This application is ideal for **small-to-medium retail stores**, outlets, or as a **Laravel learning project**.
 
 ---
 
-## Fitur Utama
+## Key Features
 
 ### Dashboard
-- Total pendapatan per bulan
-- Total order/transaksi
-- Total produk
-- Total user
-- Daftar transaksi terbaru
-- Produk terlaris
+- Monthly revenue overview
+- Total orders/transactions
+- Total product count
+- Total registered users
+- Recent transactions list
+- Top-selling products
 
-### Manajemen Produk
-- Tambah, edit, hapus produk
-- Cek stok produk secara realtime
-- Harga jual per produk
+### Product Management
+- Add, edit, and delete products
+- Real-time stock monitoring
+- Product pricing management
 
-### Penerimaan Barang
-- Input barang masuk
-- Penambahan stok otomatis
-- Riwayat penerimaan barang
+### Stock In (Receiving)
+- Input incoming goods/inventory
+- Automatic stock increment
+- Stock receiving history
 
-### Pengeluaran Barang (Transaksi Penjualan)
-- Pilih produk menggunakan **Select2 (AJAX)**
-- Validasi stok
-- Hitung subtotal, total, bayar, dan kembalian otomatis
-- Pengurangan stok otomatis
-- Nomor transaksi unik
+### Sales Transaction (Stock Out)
+- Product selection using **Select2 (AJAX)**
+- Stock availability validation
+- Automated calculations (Subtotal, Total, Payment, Change)
+- Automatic stock deduction upon sale
+- Unique transaction/invoice numbering
 
-### Manajemen User
-- Multi user (admin / petugas)
-- Autentikasi Laravel
+### User Management
+- Multi-user support (Admin / Staff)
+- Secure Laravel Authentication
 
-### Laporan
-- Riwayat transaksi
-- Total penjualan
-- Data produk terlaris
-
----
-
-## Teknologi yang Digunakan
-
-- Laravel 12
-- PHP 8
-- MySQL
-- Blade Template
-- jQuery
-- Ajax
-- Select2
-- Bootstrap / AdminLTE
-- Carbon
-- DataTables
+### Reports
+- Transaction history
+- Total sales summary
+- Best-selling product data
 
 ---
 
-## Lisensi
+## Tech Stack
 
-Open-source, bebas digunakan untuk pembelajaran.
+- **Framework:** Laravel 12
+- **Language:** PHP 8
+- **Database:** MySQL
+- **Templating:** Blade Template
+- **Frontend/UI:** Bootstrap / AdminLTE
+- **Scripting:** jQuery, AJAX
+- **Libraries:** Select2, DataTables, Carbon
+
+---
+
+## License
+
+Open-source. Free to use for educational and learning purposes.
 
